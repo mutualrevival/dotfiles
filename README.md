@@ -8,3 +8,4 @@
 - Sketchybar
 - Neofetch
 - Raycast
+- Jankyborders
