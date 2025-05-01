@@ -1,3 +1,8 @@
 [font]
 normal.family = "JetBrainsMono Nerd Font"
 size = 13
+
+[terminal]
+
+[terminal.shell]
+program = "/opt/homebrew/bin/fish"
