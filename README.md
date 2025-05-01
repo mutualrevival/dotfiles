@@ -3,7 +3,7 @@
 ## Tools Used
 
 - Alacritty
-- Fish Shell + Tide
+- Fish Shell
 - Aerospace
 - Sketchybar
 - Neofetch
