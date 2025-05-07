@@ -1,5 +1,8 @@
 #!/bin/bash
 
+source "$CONFIG_DIR/colors.sh"
+
+
 sketchybar --add item media e \
            --set media label.color=$ACCENT_COLOR \
                        label.max_chars=20 \
