@@ -16,3 +16,4 @@ else
                          label.color=$COLOR_BLACK \
                          icon.color=$COLOR_BLACK
 fi
+

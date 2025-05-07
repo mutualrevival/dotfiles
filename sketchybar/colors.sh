@@ -25,8 +25,6 @@ export COLOR_BLUE=0xFF3A94C5
 export COLOR_MAGENTA=0xFFDF69BA
 export COLOR_CYAN=0xFF35A77C
 
-
-
 # Extra Themes
 
 # -- Teal Scheme --
