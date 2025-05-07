@@ -1,8 +1,30 @@
+
+[general]
+import = [
+  "colors.toml"
+]
+
+[terminal.shell]
+program = "/opt/homebrew/bin/fish"
+
 [font]
 normal.family = "JetBrainsMono Nerd Font"
 size = 13
 
-[terminal]
+[cursor.style]
+blinking = "On"
 
-[terminal.shell]
-program = "/opt/homebrew/bin/fish"
+[window]
+decorations = "transparent"
+opacity = 0.8
+blur = true
+dynamic_padding = false
+
+[window.padding]
+x = 10
+y = 30
+
+[keyboard]
+bindings = [
+  { key = "T", mods = "Control", action = "CreateNewWindow" },
+]
