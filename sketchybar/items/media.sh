@@ -6,7 +6,7 @@ sketchybar --add item media e \
   --set media \
     label.color="$COLOR_BLACK" \
     label.max_chars=20 \
-    icon.padding_left=10 \
+    icon.padding_left=0 \
     scroll_texts=on \
     icon="􀑪" \
     icon.color="$COLOR_BLACK" \
@@ -19,4 +19,9 @@ sketchybar --add item media e \
         open -a "$APP"
       fi
     ' \
+    background.height=2 \
+                 background.color=$COLOR_BLUE \
+                 background.y_offset=-15 \
+                 background.drawing=on \
+                 background.corner_radius=0 \
   --subscribe media media_change
