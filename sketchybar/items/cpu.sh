@@ -7,7 +7,6 @@ sketchybar --add item cpu left \
                      icon=􀧓 \
                      label.font="SF Pro:SemiBold:12" \
                      label.align=right \
-                     label.width=30 \
                      background.height=2 \
                      background.color=$COLOR_RED \
                      background.y_offset=-15 \
