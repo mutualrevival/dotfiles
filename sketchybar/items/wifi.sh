@@ -3,7 +3,7 @@
 sketchybar --add item wifi left \
            --set wifi script="$PLUGIN_DIR/wifi.sh" \
                         update_freq=5 \                        icon.font="SF Pro:SemiBold:10.0" \
-                        label.font="SF Pro:Semibold:10.0" \
+                        label.font="SF Pro:Semibold:11.0" \
                         label.drawing=on \
                         label.align=left \
                         label.y_offset=0 \
