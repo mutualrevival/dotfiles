@@ -5,7 +5,7 @@ export WHITE=0xffC2C2C2
 # -- E-Ink Scheme --
 
 # Primary
-export BAR_COLOR=0xFFC2C2C2 # white
+export BAR_COLOR=0xFFDADADA # white
 export ITEM_BG_COLOR=0x000000 # transparent bg color
 export ACCENT_COLOR=0xffC2C2C2 # white default accent  color
 export FONT_COLOR=0xFF333333 # Black Font

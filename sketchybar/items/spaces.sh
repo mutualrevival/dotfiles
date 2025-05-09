@@ -3,14 +3,26 @@
 CONFIG_DIR="$HOME/.config/sketchybar"
 source "$CONFIG_DIR/colors.sh"
 
-# Add the Aerospace event once
 sketchybar --add event aerospace_workspace_change
 
-# Add a single Sketchybar item to show the active space
-sketchybar --add item space.active left \
-           --subscribe space.active aerospace_workspace_change \
-           --set space.active \
-           label.padding_left=0 \
-           label.padding_right=2 \
-           label.font="SF Pro:Semibold:12" \
-           script="$CONFIG_DIR/plugins/space_active.sh"
+# Remove any previous items
+for i in {1..9}; do
+  sketchybar --remove space.$i 2>/dev/null
+done
+
+# Add all 9 space indicators
+for i in {1..9}; do
+  sketchybar --add item space.$i center \
+             --set space.$i script="$CONFIG_DIR/plugins/space.sh $i" \
+                              label.font="SF Pro:Regular:8" \
+                              y_offset=-17 \
+                              label.padding_left=4 \
+                              label.padding_right=4 \
+                              icon.drawing=off \
+                              background.drawing=off \
+                              padding_left=0 \
+                              padding_right=0 \
+                              margin=0 \
+                              click_script="aerospace workspace $i" \
+             --subscribe space.$i aerospace_workspace_change
+done

@@ -17,7 +17,7 @@ ITEM_DIR="$CONFIG_DIR/items"
 # If you are looking for other colors, see the color picker:
 # https://felixkratz.github.io/SketchyBar/config/tricks#color-picker
 
-sketchybar --bar position=top height=32 blur_radius=30 color=$BAR_COLOR
+sketchybar --bar position=top height=50 blur_radius=30 color=$BAR_COLOR
 
 ##### Changing Defaults #####
 # We now change some default values, which are applied to all further items.
@@ -37,17 +37,17 @@ default=(
   icon.padding_right=1
   label.padding_left=4
   label.padding_right=1
+  y_offset=8
 )
 sketchybar --default "${default[@]}"
 
 #### Left Side Items
-# source $ITEM_DIR/spaces.sh
-source $ITEM_DIR/front_app.sh
 source $ITEM_DIR/cpu.sh
 source $ITEM_DIR/volume.sh
 source $ITEM_DIR/wifi.sh
 
 #### Left Side of Notch Items
+source $ITEM_DIR/front_app.sh
 
 #### Ride Side of Notch Items
 source $ITEM_DIR/media.sh
@@ -58,7 +58,9 @@ source $ITEM_DIR/calendar.sh
 source $ITEM_DIR/battery.sh
 
 ##### Center Items
-source "$ITEM_DIR/marquee.sh"
+# source "$ITEM_DIR/marquee.sh"
+source $ITEM_DIR/spaces.sh
+
 
 
 ##### Force all scripts to run the first time (never do this in a script) #####

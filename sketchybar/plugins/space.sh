@@ -1,15 +1,16 @@
-#!/bin/sh
+#!/bin/bash
 
-# The $SELECTED variable is available for space components and indicates if
-# the space invoking this script (with name: $NAME) is currently selected:
+CONFIG_DIR="$HOME/.config/sketchybar"
+source "$CONFIG_DIR/colors.sh"
 
-source "$CONFIG_DIR/colors.sh" # Loads all defined colors
+# Get the active space
+active_space=$(aerospace list-workspaces --focused --json | jq -r '.[0].workspace')
 
-if [ $SELECTED = true ]; then
-  sketchybar --set $NAME background.drawing=on \
-                         background.color=$ACCENT_COLOR \
-                         label.color=$COLOR_BLACK
+# Get the space number passed in
+this_space=$1
+
+if [ "$this_space" = "$active_space" ]; then
+  sketchybar --set "$NAME" label="􀀁"
 else
-  sketchybar --set $NAME background.drawing=off \
-                         label.color=$COLOR_BLACK
+  sketchybar --set "$NAME" label="􀀀"
 fi
