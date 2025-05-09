@@ -425,6 +425,21 @@ function icon_map() {
   "WhatsApp")
     icon_result=":whats_app:"
     ;;
+  "Adobe Photoshop 2024")
+    icon_result="􁊕"
+    ;;
+  "Adobe Premiere Pro 2024")
+    icon_result="􀅭" 
+    ;;
+  "Adobe After Effects")
+    icon_result="􀜢"
+    ;;
+  "Adobe Media Encoder 2024")
+    icon_result="􀯯"
+    ;;
+    "Adobe Lightroom Classic 2024")
+    icon_result="􀌟"
+    ;;
   *)
     icon_result=":default:"
     ;;
