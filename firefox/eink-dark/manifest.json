@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version": "1.2",
+  "version": "1.3",
   "name": "e-ink-dark",
   "theme": {
     "properties": {
@@ -23,7 +23,7 @@
       "popup_text": "#C2C2C2",
       "button_background_active": "#474747",
       "button_background_hover": "#474747",
-      "icons_attention": "#3A94C5",
+      "icons_attention": "#DFA000",
       "icons": "#C2C2C2",
       "ntp_background": "#333333",
       "ntp_text": "#C2C2C2",
