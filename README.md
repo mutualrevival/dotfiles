@@ -1,4 +1,5 @@
-# Dotfiles
+# E-Ink
+An e-ink inspired config for MacOS. Ideal for Macbooks with a notch.
 
 ## Tools Used
 
