@@ -1,3 +1,26 @@
+# macOS system files
 .DS_Store
-.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails and metadata
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor backups and temp files
+*~
+*.swp
+*.swo
+*.bak
+
+# IDE/project files
+.vscode/
+.idea/
+
+# Local secrets
+.env
+secrets.env
+local.env
+
 firefox/
