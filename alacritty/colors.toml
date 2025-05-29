@@ -1,0 +1,31 @@
+# Alacritty colors based on updated Sketchybar colors.sh
+
+[colors.primary]
+background = '#1C1C1E'     # COLOR_BLACK
+foreground = '#FFFFFF'     # COLOR_WHITE
+
+[colors.cursor]
+text = '#1C1C1E'           # COLOR_BLACK
+cursor = '#FFFFFF'         # COLOR_WHITE
+
+[colors.search]
+matches = { foreground = '#474747', background = '#b6b28b' }        # COLOR_YELLOW
+focused_match = { foreground = '#474747', background = '#7d948a' }  # COLOR_GREEN_LIGHT
+
+[colors.normal]
+black   = '#1C1C1E'  # COLOR_BLACK
+red     = '#956668'  # COLOR_RED
+yellow  = '#b6b28b'  # COLOR_YELLOW
+blue    = '#81a4b0'  # COLOR_BLUE
+magenta = '#656472'  # COLOR_PURPLE
+cyan    = '#7d948a'  # COLOR_GREEN_LIGHT
+white   = '#FFFFFF'  # COLOR_WHITE
+
+[colors.bright]
+black   = '#2C2C2E'  # Slightly lighter black for contrast (custom)
+red     = '#b37778'  # Brightened COLOR_RED
+yellow  = '#d3d0a0'  # Brightened COLOR_YELLOW
+blue    = '#9ab7c4'  # Brightened COLOR_BLUE
+magenta = '#7a7a8a'  # Brightened COLOR_PURPLE
+cyan    = '#9bb8a5'  # Brightened COLOR_GREEN_LIGHT
+white   = '#E5E5EA'  # Softer white (macOS-like)
