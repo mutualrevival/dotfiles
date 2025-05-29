@@ -1,0 +1,37 @@
+{
+  "manifest_version": 2,
+  "version": "1.6",
+  "name": "forest",
+  "theme": {
+    "properties": {
+      "additional_backgrounds_alignment": [
+        "top"
+      ],
+      "additional_backgrounds_tiling": [
+        "repeat"
+      ]
+    },
+    "colors": {
+      "toolbar": "#1C1C1E",
+      "toolbar_text": "#7d948a",
+      "frame": "#1C1C1E",
+      "tab_background_text": "#FFFFFF",
+      "toolbar_field": "#36413E",
+      "toolbar_field_text": "#7d948a",
+      "tab_line": "#768e84",
+      "popup": "#1C1C1E",
+      "popup_text": "#FFFFFF",
+      "button_background_active": "#474747",
+      "button_background_hover": "#474747",
+      "icons_attention": "#768e84",
+      "icons": "#768e84",
+      "ntp_background": "#1C1C1E",
+      "ntp_text": "#FFFFFF",
+      "popup_highlight_text": "#1C1C1E",
+      "popup_highlight": "#768e84",
+      "tab_loading": "#768e84",
+      "bookmark_text": "#768e84",
+      "bookmark_icons": "#768e84"
+    }
+  }
+}
