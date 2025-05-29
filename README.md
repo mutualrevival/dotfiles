@@ -1,5 +1,5 @@
 # Base Config Dotfiles
-A simple MacOS rice config for desktop.
+A simple base config for desktop MacOS rice.
 
 ## Tools Used
 
