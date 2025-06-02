@@ -1,8 +1,5 @@
 #!/bin/bash
 
-##### Load Lua Script #####
-sketchybar --load-lua-script ~/.local/share/sketchybar_lua/sketchybar.so
-
 source "$CONFIG_DIR/colors.sh" # Loads all defined colors
 
 # This is a demo config to showcase some of the most important commands.
