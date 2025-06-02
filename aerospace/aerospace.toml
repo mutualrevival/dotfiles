@@ -157,6 +157,13 @@ automatically-unhide-macos-hidden-apps = false
     # See: https://nikitabobko.github.io/AeroSpace/commands#mode
     alt-shift-semicolon = 'mode service'
 
+    # Custom script for workspace nav using q and w with wraparound behavior
+
+    alt-q = 'exec-and-forget ~/.config/aerospace/scripts/workspace-nav.sh prev'
+    alt-w = 'exec-and-forget ~/.config/aerospace/scripts/workspace-nav.sh next'
+
+
+
 # 'service' binding mode declaration.
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
 [mode.service.binding]
