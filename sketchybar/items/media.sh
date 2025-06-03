@@ -2,10 +2,10 @@
 
 source "$CONFIG_DIR/colors.sh"
 
-sketchybar --add item media e \
+sketchybar --add item media q \
   --set media \
     label.color="$COLOR_BLACK" \
-    label.max_chars=20 \
+    label.max_chars=25 \
     icon.padding_left=0 \
     scroll_texts=on \
     icon="􀑪" \

@@ -42,24 +42,24 @@ default=(
 sketchybar --default "${default[@]}"
 
 #### Left Side Items
-source $ITEM_DIR/cpu.sh
-source $ITEM_DIR/volume.sh
-source $ITEM_DIR/wifi.sh
-
-#### Left Side of Notch Items
 source $ITEM_DIR/front_app.sh
 
-#### Ride Side of Notch Items
+#### Left Side of Notch Items
 source $ITEM_DIR/media.sh
+
+#### Ride Side of Notch Items
+source $ITEM_DIR/spaces.sh
 
 ##### Right Side Items
 source $ITEM_DIR/time.sh
 source $ITEM_DIR/calendar.sh
+source $ITEM_DIR/volume.sh
 source $ITEM_DIR/battery.sh
+source $ITEM_DIR/wifi.sh
+source $ITEM_DIR/cpu.sh
 
 ##### Center Items
 # source "$ITEM_DIR/marquee.sh"
-source $ITEM_DIR/spaces.sh
 
 
 

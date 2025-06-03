@@ -15,7 +15,7 @@ for i in {1..9}; do
   sketchybar --add item space.$i center \
              --set space.$i script="$CONFIG_DIR/plugins/space.sh $i" \
                               label.font="SF Pro:Regular:8" \
-                              y_offset=-17 \
+                              y_offset=-16 \
                               label.padding_left=4 \
                               label.padding_right=4 \
                               icon.drawing=off \
