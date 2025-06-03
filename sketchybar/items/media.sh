@@ -10,7 +10,6 @@ sketchybar --add item media e \
     scroll_texts=on \
     icon="􀑪" \
     icon.color="$COLOR_BLACK" \
-    background.drawing=on \
     script="$PLUGIN_DIR/media.sh" \
     click_script='
       if [[ -f /tmp/sketchybar-current-media-app ]]; then
@@ -19,9 +18,4 @@ sketchybar --add item media e \
         open -a "$APP"
       fi
     ' \
-    background.height=2 \
-                 background.color=$COLOR_BLUE \
-                 background.y_offset=-15 \
-                 background.drawing=on \
-                 background.corner_radius=0 \
   --subscribe media media_change

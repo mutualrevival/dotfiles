@@ -12,10 +12,11 @@ sketchybar --add item wifi left \
                         icon.padding_left=0 \
                         label.padding_right=0 \
                         label.padding_left=0 \
-                        background.drawing=on \
-                        background.height=2 \
-                        background.color=$COLOR_YELLOW \
-                        background.y_offset=-15 \
-                        background.corner_radius=0 \
                         update_freq=2 \
                         click_script="open 'x-apple.systempreferences:com.apple.wifi-settings-extension'"
+
+                        # background.drawing=on \
+                        # background.height=2 \
+                        # background.color=$COLOR_YELLOW \
+                        # background.y_offset=-15 \
+                        # background.corner_radius=0 \
