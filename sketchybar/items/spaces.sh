@@ -12,12 +12,13 @@ done
 
 # Add all 9 space indicators
 for i in {1..9}; do
-  sketchybar --add item space.$i center \
+  sketchybar --add item space.$i left \
              --set space.$i script="$CONFIG_DIR/plugins/space.sh $i" \
                               label.font="SF Pro:Regular:8" \
-                              y_offset=-16 \
                               label.padding_left=4 \
                               label.padding_right=4 \
+                              icon.color=$COLOR_BLACK \
+                              label.color=$COLOR_BLACK \
                               icon.drawing=off \
                               background.drawing=off \
                               padding_left=0 \

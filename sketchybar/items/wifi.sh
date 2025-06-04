@@ -11,4 +11,6 @@ sketchybar --add item wifi right \
                         label.padding_right=0 \
                         label.align=left \
                         label.drawing=on \
+                        icon.color=$COLOR_BLACK \
+                        label.color=$COLOR_BLACK \
                         click_script="open 'x-apple.systempreferences:com.apple.wifi-settings-extension'"

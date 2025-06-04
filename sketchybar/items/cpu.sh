@@ -7,4 +7,6 @@ sketchybar --add item cpu right \
                      icon=􀧓 \
                      label.font="SF Pro:SemiBold:12" \
                      label.align=right \
+                     icon.color=$COLOR_BLACK \
+                     label.color=$COLOR_BLACK \
                      script="$PLUGIN_DIR/cpu.sh"

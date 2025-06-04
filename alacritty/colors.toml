@@ -1,34 +1,33 @@
-# Default colors
+# Alacritty colors configuration - Dark Blue-Grey background
+
 [colors.primary]
-background = '#CCCCCC'
-foreground = '#474747'
+background = '#232321'   # black
+foreground = '#D9D8D4'   # light gray text
 
 [colors.cursor]
-text = '#CCCCCC'
-cursor = '#474747'
+text = '#1B2428'         # background color for cursor text
+cursor = '#D9D8D4'       # cursor color (light gray)
 
 [colors.search]
-matches = { foreground = '#474747', background = '#DEBB64' }
-focused_match = { foreground = '#474747', background = '#8DA101' }
+matches = { foreground = '#D9D8D4', background = '#B1A084' }       # white on tan
+focused_match = { foreground = '#D9D8D4', background = '#595643' } # white on dark tan
 
-# Normal colors
 [colors.normal]
-black   = '#333333'
-red     = '#F85552'
-green   = '#8DA101'
-yellow  = '#DFA000'
-blue    = '#3A94C5'
-magenta = '#DF69BA'
-cyan    = '#35A77C'
-white   = '#C2C2C2'
+black   = '#232321'  # black (dark blue-grey)
+red     = '#B64B1E'  # orange
+green   = '#505944'  # green
+yellow  = '#B1A084'  # tan
+blue    = '#7C8D90'  # blue-gray
+magenta = '#9E8882'  # dusty mauve
+cyan    = '#7A9B91'  # muted sage
+white   = '#D9D8D4'  # light gray
 
-# Bright colors
 [colors.bright]
-black   = '#333333'
-red     = '#F85552'
-green   = '#8DA101'
-yellow  = '#DFA000'
-blue    = '#3A94C5'
-magenta = '#DF69BA'
-cyan    = '#35A77C'
-white   = '#C2C2C2'
+black   = '#232321'  # black (dark blue-grey)
+red     = '#B64B1E'  # orange
+green   = '#505944'  # green
+yellow  = '#B1A084'  # tan
+blue    = '#7C8D90'  # blue-gray
+magenta = '#9E8882'  # dusty mauve
+cyan    = '#7A9B91'  # muted sage
+white   = '#D9D8D4'  # light gray

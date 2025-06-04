@@ -5,9 +5,6 @@ source "$CONFIG_DIR/colors.sh"
 sketchybar --add item volume right \
            --set volume \
              script="$PLUGIN_DIR/volume.sh" \
+             icon.color=$COLOR_BLACK \
+             label.color=$COLOR_BLACK \
              --subscribe volume volume_change
-             # background.drawing=on \
-             # background.height=2 \
-             # background.color=$COLOR_ORANGE \
-             # background.y_offset=-15 \
-             # background.corner_radius=0 \
