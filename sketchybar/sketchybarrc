@@ -37,7 +37,7 @@ default=(
   icon.padding_right=1
   label.padding_left=4
   label.padding_right=7
-  y_offset=-3
+  y_offset=-4
 )
 sketchybar --default "${default[@]}"
 

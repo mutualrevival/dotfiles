@@ -9,6 +9,8 @@ sketchybar --add item media q \
     scroll_texts=on \
     icon="􀑪" \
     icon.color="$COLOR_BLACK" \
+    background.drawing=on \
+    background.color=$COLOR_WHITE \
     script="$PLUGIN_DIR/media.sh" \
     click_script='
       if [[ -f /tmp/sketchybar-current-media-app ]]; then

@@ -5,7 +5,7 @@ source "$CONFIG_DIR/colors.sh"
 
 sketchybar --add event aerospace_workspace_change
 
-sketchybar --add item spaces e \
+sketchybar --add item spaces q \
            --set spaces script="$CONFIG_DIR/plugins/space.sh" \
                          update_freq=2 \
                          label.font="SF Pro:Semibold:12.0" \
