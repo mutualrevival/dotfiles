@@ -1,0 +1,22 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+@namespace html url("http://www.w3.org/1999/xhtml");
+
+/* Hide Address Book, Calendar, Tasks, and Chat tabs */
+#tabmail-tabs > .tabmail-tab:not([label="Mail"]) {
+    display: none !important;
+}
+
+/* hide spaces bar buttons */
+#calendarButton{display: none}
+#addressBookButton{display: none}
+#chatButton{display: none}
+#tasksButton{display: none}
+#spacesToolbar {
+  display: none !important;
+}
+html|button#spacesToolbarReveal {
+  display: none !important;
+}
+toolbarbutton#spacesPinnedButton {
+  display: none !important;
+}

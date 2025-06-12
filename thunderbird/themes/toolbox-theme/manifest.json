@@ -1,0 +1,118 @@
+{
+  "manifest_version": 2,
+  "name": "toolbox-light",
+  "version": "1.0.2",
+  "applications": {
+    "gecko": {
+      "id": "{8ba4e8b8-e9fa-516e-ba63-bd89240e7892}",
+      "strict_min_version": "60.0"
+    }
+  },
+  "description": "Custom light theme for Thunderbird using toolbox colors",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "theme_experiment": {
+    "stylesheet": "styles.css",
+    "colors": {
+      "spaces_bg": "--spaces-bg-color",
+      "spaces_bg_active": "--spaces-button-active-bg-color",
+      "spaces_button": "--spaces-button-active-text-color",
+      "tree_view_bg": "--tree-view-bg",
+      "bg_color": "--bg-color",
+      "button_primary_bg": "--button-primary-background-color",
+      "button_text": "--button-primary-text-color",
+      "tree_pane_bg": "--tree-pane-background",
+      "tree_card_bg": "--tree-card-background",
+      "layout_bg_0": "--layout-background-0",
+      "layout_bg_1": "--layout-background-1",
+      "button_bg": "--button-background-color",
+      "lwt_accent_color": "--lwt-accent-color",
+      "list_container_background_selected_current": "--list-container-background-selected-current",
+      "ab_cards_list_bg": "--ab-cards-list-bg",
+      "in_content_box_info_background": "--in-content-box-info-background",
+      "calendar_view_toggle_bg": "--calendar-view-toggle-background",
+      "calendar_view_toggle_hover_bg": "--calendar-view-toggle-hover-background",
+      "tabs_toolbar_bg": "--tabs-toolbar-background-color",
+      "color_gray_70": "--color-gray-70",
+      "color_gray_50": "--color-gray-50"
+    }
+  },
+  "theme": {
+    "colors": {
+      "frame": "#D9D8D4",
+      "icons": "#232321",
+      "tab_text": "#232321",
+      "tab_line": "#CFCFCA",
+      "tab_loading": "#B64B1E",
+      "tab_selected": "#D9D8D4",
+      "tab_background_text": "#232321",
+      "tab_background_separator": "#CFCFCA",
+      "bookmark_text": "#232321",
+
+      "toolbar": "#D9D8D4",
+      "toolbar_field": "#D9D8D4",
+      "toolbar_field_text": "#232321",
+      "toolbar_field_highlight": "#7C8D90",
+      "toolbar_field_highlight_text": "#232321",
+      "toolbar_field_border": "#CFCFCA",
+      "toolbar_field_focus": "#D9D8D4",
+      "toolbar_field_text_focus": "#232321",
+      "toolbar_field_border_focus": "#7C8D90",
+      "toolbar_top_separator": "#CFCFCA",
+      "toolbar_bottom_separator": "#CFCFCA",
+      "toolbar_vertical_separator": "#CFCFCA",
+
+      "sidebar": "#D9D8D4",
+      "sidebar_text": "#232321",
+      "sidebar_highlight": "#7C8D90",
+      "sidebar_highlight_text": "#232321",
+      "sidebar_border": "#CFCFCA",
+
+      "popup": "#D9D8D4",
+      "popup_text": "#232321",
+      "popup_border": "#CFCFCA",
+      "popup_highlight": "#7C8D90",
+      "popup_highlight_text": "#232321",
+
+      "spaces_bg": "#D9D8D4",
+      "spaces_bg_active": "#7C8D90",
+      "spaces_button": "#D9D8D4",
+
+      "tree_view_bg": "#D9D8D4",
+      "bg_color": "#D9D8D4",
+
+      "button_primary_bg": "#7C8D90",
+      "button_background_active": "#7C8D90",
+      "button_background_hover": "#92A3A5",
+      "button_bg": "#7C8D90",
+      "button_border": "#7C8D90",
+      "button_border_focus": "#7C8D90",
+      "button_text": "#D9D8D4",
+
+      "tree_pane_bg": "#D9D8D4",
+      "tree_card_bg": "#D9D8D4",
+      "layout_bg_0": "#D9D8D4",
+      "layout_bg_1": "#D9D8D4",
+
+      "lwt_accent_color": "#B64B1E",
+      "list_container_background_selected_current": "#D9D8D4",
+      "ab_cards_list_bg": "#D9D8D4",
+      "in_content_box_info_background": "#D9D8D4",
+
+      "calendar_view_toggle_bg": "#D9D8D4",
+      "calendar_view_toggle_hover_bg": "#7C8D90",
+
+      "tabs_toolbar_bg": "#D9D8D4",
+      "color_gray_70": "#CFCFCA",
+      "color_gray_50": "#CFCFCA",
+
+      "mail_list_background": "#D9D8D4",
+      "message_pane_background": "#D9D8D4",
+      "mail_tabs_toolbar": "#D9D8D4",
+      "mail_toolbar": "#D9D8D4"
+    }
+  }
+}

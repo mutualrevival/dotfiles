@@ -13,3 +13,4 @@ Must install Aušrinė font from: https://berzulis.com/ or change items/spaces.s
 - Raycast
 - Jankyborders
 - Spicetify
+- Thunderbird
