@@ -24,4 +24,5 @@ secrets.env
 local.env
 
 firefox/
-palettes/z
+palettes/
+thunderbird/
